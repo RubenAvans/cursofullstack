@@ -1,0 +1,48 @@
+body{
+    background-color: rgb(66, 66, 66)
+}
+h1{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-transform: uppercase;
+    color: lightskyblue;
+    text-align: center;
+}
+.fotoperfil{
+    margin:auto;
+    display:block;
+}
+h2{
+    color: lightcyan;
+}
+h3{
+    color: lightcyan;
+}
+h4{
+    color: lightcyan;
+}
+h5{
+    font-size: 20px;
+    color: white;
+}
+ul{
+    text-align: center;
+    color: lightgoldenrodyellow;
+    padding: 25px 5px 25px 5px;
+}
+#descripción{
+    text-align: center;
+    width: 400px;
+    padding: 15px;
+    font-size: 20px;
+    background-color: rgb(26, 88, 180);
+    color: white;
+    border: 2px solid rgb(161, 161, 161);
+}
+.instagram :hover{
+    color: rgb(65, 179, 250);
+    text-decoration: none;
+    cursor: pointer;
+}
+p{
+    margin-left: 335px;
+    }
