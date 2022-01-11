@@ -1,0 +1,62 @@
+#contenedor{
+    border: 5px solid rgb(0, 1, 65);
+    background-color: orange;
+    width: 500px;
+    height: 800px;
+    margin: 0 auto;
+    display: inline-flex;
+    flex-direction: column;
+    justify-content: space-around;
+
+}
+.caja1{
+    position: relative;
+    top: 0px;
+    left: 400px;
+    height: 200px;
+    width: 100px;
+    background-color: purple;
+    color: white;
+    font-size: 30px;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+}
+.caja2{
+    position: relative;
+    top: 0px;
+    left: 400px;
+    height: 200px;
+    width: 100px;
+    background-color: red;
+    color: white;
+    font-size: 30px;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+}
+.caja3{
+    position: relative;
+    top: 0px;
+    left: 400px;
+    height: 200px;
+    width: 100px;
+    background-color: yellow;
+    font-size: 30px;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+}
+.caja4{
+    position: relative;
+    top: 0px;
+    left: 400px;
+    height: 200px;
+    width: 100px;
+    background-color: darkcyan;
+    color: white;
+    font-size: 30px;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+}
