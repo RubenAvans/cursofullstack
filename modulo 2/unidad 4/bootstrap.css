@@ -1,0 +1,69 @@
+/* body{
+    background: pink;
+} */
+.container{
+    background-color: rgb(190, 40, 40);
+    color: black;
+    padding: 30px;
+}
+.row{
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+.col{
+    background-color: rgb(241, 241, 241);
+    padding: 20px;
+    font-size: 100%;
+    border: solid rgb(87, 87, 87) 2px;
+    border-radius: 5px;
+    margin-top: 20px;
+    /* margin-left: 5px; */
+    /* margin-right: 5px; */
+    /* text-decoration: none; */
+}
+.col a{
+    text-decoration: none;
+    color: black;
+}
+.col a:hover{
+    text-decoration: none;
+    color: white;
+    transition: all 0.3s;
+}
+.col:hover{
+    cursor: pointer;
+    background: grey;
+    transition: all 0.3s;
+    /* text-decoration: none; */
+}
+.form-floating{
+    margin-top: 20px;
+}
+.los80{
+    margin-top: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+.los90{
+    margin-top: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+.los2000{
+    margin-top: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+.Los2010{
+    margin-top: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+/* .accordion-item{
+    background: white;
+    color: rgb(223, 17, 17);
+} */
