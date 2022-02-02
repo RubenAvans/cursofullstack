@@ -1,0 +1,77 @@
+body {
+color: white;
+background-color: lightblue;
+font-size: 100%;
+}
+h1{
+    text-align: center;
+}
+.contenedor {
+    width: 1000px;
+    background-color: darkred;
+    margin: 0 auto;
+    overflow: hidden;
+}
+ul {
+    background-color: lightgreen;
+    float: left;
+    width: 150px;
+    padding: 10px;
+    text-align: center;
+}
+li {
+    list-style-type: none;
+    color: darkred;
+}
+.contenido {
+    background: lightsalmon;
+    float: left;
+    margin: 0 25px 0 25px;
+    padding: 10px;
+    width: 400px;
+    color: darkred;
+}
+@media screen and (min-width: 230px) and (max-width: 1000px){
+
+    body{
+        color: purple;
+        padding: 0;
+        margin: 0px;
+    }
+    .contenedor{
+        background: pink;
+        width: 100%;
+    }
+    ul{
+        background: rgb(247, 247, 127);
+        float: none;
+        width: 100%;
+        margin: 0px;
+        margin-top: double black 5px;
+    }
+    li{
+        padding: 30px;
+        display: block;
+        color: purple;
+    }
+    .contenido{
+        background: aqua;
+        color: purple;
+        border-top: double black 5px;
+        float: none;
+        padding: 30px;
+        width: 100%;
+        margin-left: 0px;
+    }
+    aside{
+        background: rgb(223, 129, 67);
+        color: purple;
+        border-top: double black 5px;
+        float: none;
+        padding: 30px;
+        width: 100%;
+        margin-left: 0px;
+    }
+
+
+}

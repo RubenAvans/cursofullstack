@@ -1,0 +1,125 @@
+body{
+    color: black;
+    background: rgb(221, 134, 134);
+    font-size: 100%;
+}
+.contenedor{
+    width: 1000px;
+    background: rgb(75, 9, 9);
+    color: white;
+    margin: 0 auto;
+    display: flex;
+    /* flex-direction: row; */
+    flex-direction: column;
+}
+.nombre{
+text-align: center;
+color: white;
+text-decoration: underline;
+font-family: 'Amatic SC', cursive;
+transform: scale(2);
+
+animation-name: Nombre;
+animation-duration: 3s;
+animation-fill-mode: forwards;
+
+    }
+
+@keyframes Nombre {
+    from {
+		font-size:0%;
+		margin: 0 auto;
+        text-align: center;
+        opacity: 0;
+    }
+
+    50% {
+		font-size:100%;
+        text-align: center;
+        opacity: 0.5;
+    }
+
+    to {
+		font-size:100%;
+		margin: 0 auto;
+		width:300px;
+        text-align: center;
+        opacity: 1;
+    }
+}
+.foto{
+    width:500px;
+    height: 500px;
+    overflow:hidden;
+    border: inset lightskyblue 3px;
+    opacity: 0.5;
+    transition: all 0.3s;
+}
+.foto:hover{
+    opacity: 1;
+}
+.foto img{
+    width:100%;
+    height:auto;
+}
+li{
+    list-style-type: none;
+    margin-left: 20%;
+}
+p{
+    margin-left: 10%;
+    font-family: 'Source Serif 4', sans-serif;
+}
+#descripción{
+    text-align: center;
+    width: 500px;
+    margin: 0 auto;
+    border: ridge rgb(145,146,196,1) 8px;
+    padding: 20px;
+    background: rgb(213,142,151);
+    background: linear-gradient(45deg, rgba(213,142,151,1) 0%, rgba(145,146,196,1) 67%, rgba(89,168,182,1) 100%);
+    color: black;
+    box-shadow: 8px 9px 20px 0px rgb(213,142,151,1);
+    opacity: 0.3;
+    transition: all 0.5s;
+}
+#descripción:hover{
+opacity: 1;
+}
+
+@media screen and (min-width: 230px) and (max-width: 900px){
+    body{
+        background: black;
+        color: white;
+        font-size: 100%;
+        padding: 0px;
+        margin: 0px;
+    }
+    .contenedor{
+        background: rgb(238, 198, 198);
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        color: black;
+        /* overflow: hidden; */
+    }
+    .nombre{
+        color: black;
+    }
+    .foto{
+        width: 100%;
+    }
+    #descripción{
+        text-align: center;
+        width: 100%;
+        box-shadow: none;
+        /* margin: 0 auto; */
+        border: ridge rgb(69, 69, 100) 3px;
+        background: rgb(213,142,151);
+        background: linear-gradient(45deg, rgba(89,168,182,1) 0%, rgba(145,146,196,1) 67%, rgba(213,142,151,1) 100%);
+        color: black;
+        opacity: 0.7;
+        transition: all 0.5s;
+    }
+    
+}
