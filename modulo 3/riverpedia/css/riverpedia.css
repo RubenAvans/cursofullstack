@@ -1,0 +1,155 @@
+/* font-family: 'Open Sans', sans-serif; */
+/* agregarle un contorno a las letras: 
+-webkit-text-stroke: 2px white;
+color: transparent;  */
+body{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    line-height: 20px;
+}
+
+header{
+    background: rgb(213,0,0);
+background: linear-gradient(90deg, rgba(213,0,0,1) 25%, rgba(93,10,10,1) 50%, rgba(0,0,0,1) 75%);
+/* background: rgb(255,255,255);
+background: linear-gradient(90deg, rgba(255,255,255,1) 10%, rgba(179,117,117,1) 40%, rgba(222,0,0,1) 75%); */
+padding: 10px 0px;
+}
+
+header img{
+    height: 100px;
+}
+
+header h1{
+    color: black;
+    font-size: 40px;
+    font-style: italic;
+    margin-left: 20px;
+    -webkit-text-stroke: 1px rgb(255, 255, 255);
+}
+
+.header{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+nav{
+    background-color: rgb(231, 74, 74);
+    margin-bottom: 32px;
+}
+
+nav ul{
+    list-style: none;
+    margin: 0px;
+    padding: 0px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+nav ul li{
+    width: 25%;
+    text-align: center;
+}
+
+nav ul li a{
+    color: white;
+    text-decoration: none;
+    text-align: center;
+    display: block;
+    padding: 3px 6px;
+}
+
+nav ul li a:hover{
+    background-color: rgba(0, 0, 0, 0.3);
+    cursor: pointer;
+    color: white;
+}
+
+footer{
+    background-color: #ccc;
+    clear: both;
+    color: #333;
+    padding: 48px 0px;
+    margin-top: 32px;
+    text-align: center;
+}
+
+.holder{
+    max-width: 980px;
+    margin: 0 auto;
+}
+
+/* inicio home */
+
+.homeimg{
+    margin-bottom: 24px;
+}
+
+.columnas{
+    display: flex;
+    flex-direction: row;
+}
+
+.river{
+    width: 65%;
+    margin-right: 30px;
+}
+
+.noticias{
+    width: 35%;
+    background-color: #ccc;
+    padding: 15px;
+    border-radius: 5px;
+}
+
+nav ul li a.activo{
+    background-color: rgba(0, 0, 0, 0.3);
+}
+
+.noticia{
+    display: flex;
+    flex-direction: column;
+}
+.fotonoticia{
+    width: 300px;
+    height: 300px;
+}
+
+
+.titulo{
+    font-weight: 500;
+    font-size: 25px;
+}
+
+main .noticia a{
+    width: 100px;
+    margin-top: 5px;
+}
+
+/* fin home */
+
+/* inicio partidos */
+
+main div table tbody tr img{
+    width: 30px;
+    height: 30px;
+}
+.partidos{
+    width: 70%;
+    float: right;
+    padding-left: 15px;
+}
+.posiciones{
+    width: 30%;
+    float: left;
+}
+
+.ultimopartido{
+padding-left: 15px;
+width: 70%;
+float: right
+}
+/* fin partidos */
