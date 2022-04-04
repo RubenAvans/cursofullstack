@@ -21,11 +21,11 @@ header img{
 }
 
 header h1{
-    color: black;
+    color: rgb(231, 74, 74);
     font-size: 40px;
-    font-style: italic;
+    /* font-style: italic; */
     margin-left: 20px;
-    -webkit-text-stroke: 1px rgb(255, 255, 255);
+    -webkit-text-stroke: 2px black;
 }
 
 .header{
@@ -88,6 +88,10 @@ footer{
     margin-bottom: 24px;
 }
 
+.homeimg img{
+    border-radius: 10px;
+}
+
 .columnas{
     display: flex;
     flex-direction: row;
@@ -98,7 +102,7 @@ footer{
     margin-right: 30px;
 }
 
-.noticias{
+.ultimanoticia{
     width: 35%;
     background-color: #ccc;
     padding: 15px;
@@ -118,6 +122,9 @@ nav ul li a.activo{
     height: 300px;
 }
 
+.fotonoticia img{
+    border-radius: 5px;
+}
 
 .titulo{
     font-weight: 500;
@@ -153,3 +160,229 @@ width: 70%;
 float: right
 }
 /* fin partidos */
+
+
+/* inicio noticias */
+
+.noticias{
+    border: 1px solid #cc0000;
+    border-radius: 10px;
+    margin: 10px 10px 10px 0px;
+    padding: 10px;
+    overflow: hidden;
+}
+
+.noticias img{
+    border-radius: 10px;
+}
+
+.noticias .info{
+    width: 70%;
+}
+
+.noticias .info h4{
+    color: #e61919;
+    font-size: 20px;
+    /* font-style: italic; */
+    font-weight: bold;
+    border-bottom: 1px solid #cc0000;
+    /* margin-bottom: 16px; */
+    padding-bottom: 8px;
+}
+
+.noticias:nth-child(even) img{
+    float: right;
+    /* margin-left: 10px; */
+}
+
+.noticias:nth-child(even) .info{
+    float: left;
+    padding-right: 20px;
+}
+
+.noticias:nth-child(2) .info button{
+    position: relative;
+    top: 75px;
+    left: 10px;
+}
+
+.noticias:nth-child(odd) img{
+    float: left;
+    /* margin-right: 10px; */
+}
+
+.noticias:nth-child(odd) .info{
+    float: right;
+    padding-left: 20px;
+    /* margin-left: 10px; */
+}
+
+.noticias:nth-child(odd) .info button{
+    position: relative;
+    top: 30px;
+    left: 83%;
+}
+
+.noticias:last-child .info button{
+    position: relative;
+    top: 30px;
+    left: 10px;
+}
+/* fin partidos */
+
+/* inicio traspasos */
+
+.acordition-body{
+    overflow: hidden;
+    /* display: inline-flex;
+    justify-content: space-around; */
+}
+
+.jugadores{
+    display: inline-flex;
+    justify-content: space-evenly;
+}
+
+.jugador2022, .jugador2021, .jugador2019, .jugador2018{
+    border: 1.5px solid #e30520;
+    border-radius: 4px;
+    float: left;
+    box-sizing: border-box;
+    text-align: center;
+    width: 20%;
+    overflow: hidden;
+    margin: 0% 1% 0% 1%;
+}
+
+.jugador2022 img{
+    max-width: 110%;
+    margin-top: 10px;
+}
+
+.jugador2022 h5, .jugador2021 h5, .jugador2019 h5, .jugador2018 h5{
+    font-size: 20px;
+    color: #e30520;
+}
+
+.jugador h6, .jugador2021 h6, .jugador2019 h6, .jugador2018 h6{
+    font-size: 16px;
+}
+
+.jugador2022 p, .jugador2021 p, .jugador2019 p, .jugador2018 p{
+    font-size: 14px;
+    margin: 0px 2px 0px 2px;
+}
+
+.jugador2022:nth-child(1) h6{
+    color: rgb(71, 71, 71);
+}
+
+.jugador2022:nth-child(2) h6{
+    color: blue;
+}
+
+.jugador2022:nth-child(3) h6{
+    color: green;
+}
+
+.jugador2022:nth-child(4) h6{
+    color: blue;
+}
+
+.jugador2022:nth-child(5) h6{
+    color: green;
+}
+
+.jugador2022:nth-child(6) h6{
+    color: rgb(71, 71, 71);
+}
+
+.jugador2022:nth-child(7) h6{
+    color: blue;
+}
+
+.jugador2021 img{
+    max-width: 125%;
+    position: relative;
+    right: 10px;
+}
+
+.jugador2021:nth-child(1) h6{
+    color: rgb(71, 71, 71);
+}
+
+.jugador2021:nth-child(2) h6{
+    color: green;
+}
+
+.jugador2021:nth-child(3) h6{
+    color: blue;
+}
+
+.jugador2021:nth-child(4) h6{
+    color: green;
+}
+
+.jugador2021:nth-child(5) h6{
+    color: green;
+}
+
+.jugador2021:nth-child(6) h6{
+    color: green;
+}
+
+.jugador2021:nth-child(7) h6{
+    color: green;
+}
+
+.jugador2021:nth-child(8) h6{
+    color: rgb(71, 71, 71);
+}
+
+.jugador2019 img{
+    max-width: 100%;
+    margin-top: 10px;
+}
+
+.jugador2019:nth-child(1) h6{
+    color: green;
+}
+
+.jugador2019:nth-child(2) h6{
+    color: green;
+}
+
+.jugador2019:nth-child(3) h6{
+    color: green;
+}
+
+.jugador2019:nth-child(4) h6{
+    color: blue;
+}
+
+.jugador2019:nth-child(5) h6{
+    color: blue;
+}
+
+.jugador2018 img{
+    max-width: 100%;
+    margin-top: 10px;
+}
+
+.jugador2018:nth-child(1) h6{
+    color: green;
+}
+
+.jugador2018:nth-child(2) h6{
+    color: green;
+}
+
+.jugador2018:nth-child(3) h6{
+    color: blue;
+}
+
+.jugador2018:nth-child(4) h6{
+    color: green;
+}
+
+/* fin traspasos */
