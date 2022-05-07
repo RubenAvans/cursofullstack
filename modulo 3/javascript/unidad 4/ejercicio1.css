@@ -1,0 +1,41 @@
+body{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+button{
+    position: relative;
+    top: 35%;
+    left: 30%;
+}
+
+#cuadrado1 {
+    width: 100px;
+    height: 100px;
+    box-sizing: border-box;
+    margin-right: 20px;
+    background: red;
+}
+
+#cuadrado2 {
+    width: 100px;
+    height: 100px;
+    box-sizing: border-box;
+    margin-right:  20px;
+    background: green;
+}
+
+#cuadrado3{
+    width: 100px;
+    height: 100px;
+    box-sizing: border-box;
+    margin-right:  20px;
+    background: blue;
+}
+
+#reset{
+    width: 100px;
+    height: 100px;
+    box-sizing: border-box;
+    margin-bottom: 20px;
+}

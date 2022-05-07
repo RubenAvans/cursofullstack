@@ -1,0 +1,63 @@
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="ejercicio1.css">
+    <title>M3U4 Ejercicio 1</title>
+</head>
+
+<body>
+    <div class="cuadrado"></div>
+        <div id="cuadrado1"><button class="botonrojo" onclick="fondoRojo()">Rojo</button></div>
+        <div id="cuadrado2"><button class="botonverde" onclick="fondoVerde()">Verde</button></div>
+        <div id="cuadrado3"><button class="botonazul" onclick="fondoAzul()">Azul</button></div>
+        <div id="reset"><button class="botonreset" onclick="fondoBlanco()">Reset</button></div>
+    
+
+
+
+    <script>
+        var rojo = document.getElementsByClassName("botonrojo");
+        var verde = document.getElementsClassName("botonverde");
+        var azul = document.getElementsByClassName("botonazul");
+        var fondo = document.getElementsByClassName("cuadrado");
+
+        // fondo.addEventListener('click', function() {
+        //     rojo.classList.add("rojo");
+        // });
+
+        function changeColor(color) {
+                document.body.style.background = color;
+            }
+              
+            function fondoRojo() {
+                changeColor('red');
+                // el_down.innerHTML = "Background Color changed";
+            }
+            function changeColor(color) {
+                document.body.style.background = color;
+            }
+              
+            function fondoVerde() {
+                changeColor('green');
+                // el_down.innerHTML = "Background Color changed";
+            }
+            function changeColor(color) {
+                document.body.style.background = color;
+            }
+              
+            function fondoAzul() {
+                changeColor('blue');
+                // el_down.innerHTML = "Background Color changed";
+            }
+
+            function changeColor(color) {
+                document.body.style.background = color;
+            }
+              
+            function fondoBlanco(color) {
+                changeColor('white');}
+    </script>
+</body>
+
+</html>

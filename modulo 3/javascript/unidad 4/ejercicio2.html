@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="ejercicio2.css">
+    <title>M3U4 Ejercicio 2</title>
+</head>
+
+<body>
+    <div class="contenedor">
+        <textarea name="message" onkeyup="countChars(this);" class="texto"></textarea>
+        <p id="contador">0 caracteres</p>
+    </div>
+
+    <script>
+        function countChars(obj) {
+            document.getElementById("contador").innerHTML = obj.value.length + ' characteres';
+        }
+    </script>
+</body>
+
+</html>
