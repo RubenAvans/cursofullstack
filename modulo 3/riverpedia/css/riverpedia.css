@@ -109,9 +109,9 @@ footer{
     border-radius: 5px;
 }
 
-nav ul li a.activo{
+/* nav ul li a.activo{
     background-color: rgba(0, 0, 0, 0.3);
-}
+} */
 
 .noticia{
     display: flex;
@@ -228,7 +228,7 @@ float: right
     top: 30px;
     left: 10px;
 }
-/* fin partidos */
+/* fin noticias */
 
 /* inicio traspasos */
 
