@@ -6,9 +6,9 @@ var logger = require('morgan');
 
 var indexRouter = require('./routes/index'); // index
 var usersRouter = require('./routes/users'); //users
-var ejemplo1Router = require('./routes/ejemplo1');
-var ejemplo2Router = require('./routes/ejemplo2');
-var ejemplo3Router = require('./routes/ejemplo3');
+var casaRouter = require('./routes/casa');
+var pelotaRouter = require('./routes/pelota');
+var florRouter = require('./routes/flor');
 
 var app = express();
 
@@ -24,9 +24,9 @@ app.use(express.static(path.join(__dirname, 'public')));
 
 app.use('/', indexRouter);
 app.use('/users', usersRouter);
-app.use('/ejemplo1', ejemplo1Router);
-app.use('/ejemplo2', ejemplo2Router);
-app.use('/ejemplo3', ejemplo3Router);
+app.use('/casa', casaRouter);
+app.use('/pelota', pelotaRouter);
+app.use('/flor', florRouter);
 
 app.get('/ejemplo4' , function(req,res){
   res.send('Hola soy el cuarto ejemplo y en este caso estoy utilizando el comando app.get para escribir el ejemplo 4')
