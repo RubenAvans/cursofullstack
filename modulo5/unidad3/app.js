@@ -60,16 +60,16 @@ app.use('/users', usersRouter);
 
 // DELETE
 
-var id_emp=25;
+// var id_emp=25;
 
-pool.query('delete from empleados where id_emp=?', [id_emp]).then(function(resultados){
-  console.log(resultados);
-});
+// pool.query('delete from empleados where id_emp=?', [id_emp]).then(function(resultados){
+//   console.log(resultados);
+// });
 
-// catch 404 and forward to error handler
-app.use(function(req, res, next) {
-  next(createError(404));
-});
+// // catch 404 and forward to error handler
+// app.use(function(req, res, next) {
+//   next(createError(404));
+// });
 
 // error handler
 app.use(function(err, req, res, next) {
